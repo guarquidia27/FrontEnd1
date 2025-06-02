@@ -1,0 +1,30 @@
+ul {
+    list-style: none; /*quita los estilos de las listas predeterminados*/
+}
+
+/*Estableceremos las propiedades para cada uno de los items*/
+ul li {
+    display: inline-block; /*muestra los elementos en línea, y conserva algunas propiedades*/
+    width: 100px; /* Establece el ancho de cada item*/
+    height: 100px; /* Establece la altura de cada item*/
+}
+
+ul li:first-child {  /*selecciona el primer item*/
+    background-color: #ff0000; /*fondo color rojo*/
+}
+
+ul li:nth-child(2) {
+    background-color: #ff000080; /*Color con opacidad*/
+}
+
+ul li:nth-child(3) {
+    background-color: #ff000060; /*Color con opacidad*/
+}
+
+ul li:nth-child(4) {
+    background-color: #ff000040;
+}
+
+ul li:nth-child(5) {
+    background-color: #ff000020;
+}
